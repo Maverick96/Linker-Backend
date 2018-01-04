@@ -1,0 +1,19 @@
+{
+  "name": "linker",
+  "version": "1.0.0",
+  "description": "Chat app made using websockets",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "nodemon" : "nodemon app.js"
+  },
+  "author": "Maverick96",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.2",
+    "ws": "^3.3.3"
+  },
+  "devDependencies": {
+    "nodemon": "^1.14.7"
+  }
+}
